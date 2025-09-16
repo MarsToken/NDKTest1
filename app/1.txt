@@ -1,0 +1,106 @@
+Executing tasks: [clean] in project /Users/zhaoenli/AndroidStudioProjects/NdkTest
+
+
+> Configure project :app
+AGPBI: {"kind":"warning","text":"The option 'android.useDeprecatedNdk' is deprecated.\nThe current default is 'false'.\nIt has been removed from the current version of the Android Gradle plugin.\nNdkCompile is no longer supported","sources":[{}]}
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+AGPBI: {"kind":"warning","text":"[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir","sources":[{}]}
+[CXX5106] NDK was located by using ndk.dir property. This method is deprecated and will be removed in a future release. Please delete ndk.dir from local.properties and set android.ndkVersion to [16.1.4479499] in all native modules in the project. https://developer.android.com/r/studio-ui/ndk-dir
+
+> Task :app:externalNativeBuildCleanDebug
+Clean people-lib-armeabi-v7a, myapplication-lib-armeabi-v7a
+Clean people-lib-arm64-v8a, myapplication-lib-arm64-v8a
+Clean myapplication-x86
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/Debug/4m1g4c68/x86/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: x86
+C/C++: hello
+C/C++: test
+Clean myapplication-x86_64
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/Debug/4m1g4c68/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: x86_64
+C/C++: hello
+C/C++: test
+
+> Task :app:externalNativeBuildCleanRelease
+Clean myapplication-armeabi-v7a
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/RelWithDebInfo/4j552y6l/armeabi-v7a/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: armeabi-v7a
+C/C++: hello
+C/C++: test
+Clean myapplication-arm64-v8a
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/RelWithDebInfo/4j552y6l/arm64-v8a/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: arm64-v8a
+C/C++: hello
+C/C++: test
+Clean myapplication-x86
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/RelWithDebInfo/4j552y6l/x86/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: x86
+C/C++: hello
+C/C++: test
+Clean myapplication-x86_64
+C/C++: CMake Warning at /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499/build/cmake/android.toolchain.cmake:63 (message):
+C/C++:   Using custom NDK path (ANDROID_NDK is set):
+C/C++:   /Users/zhaoenli/Library/Android/sdk/ndk/16.1.4479499
+C/C++: Call Stack (most recent call first):
+C/C++:   /Users/zhaoenli/AndroidStudioProjects/NdkTest/app/.cxx/RelWithDebInfo/4j552y6l/x86_64/CMakeFiles/3.22.1-g37088a8/CMakeSystem.cmake:6 (include)
+C/C++:   CMakeLists.txt:5 (project)
+C/C++: 1:+/Users/zhaoenli/AndroidStudioProjects/NdkTest/app/src/main/cpp
+C/C++: x86_64
+C/C++: hello
+C/C++: test
+
+> Task :app:clean
+
+BUILD SUCCESSFUL in 6s
+3 actionable tasks: 3 executed
+
+Build Analyzer results available

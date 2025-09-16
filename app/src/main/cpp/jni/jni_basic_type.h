@@ -1,0 +1,9 @@
+//
+// Created by 赵恩莉 on 2025/9/15.
+//
+
+#ifndef MY_APPLICATION_JNI_BASIC_TYPE_H
+#define MY_APPLICATION_JNI_BASIC_TYPE_H
+
+
+#endif //MY_APPLICATION_JNI_BASIC_TYPE_H

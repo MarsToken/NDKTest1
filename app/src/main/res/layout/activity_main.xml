@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/vBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="静态注册-跨so包" />
+
+    <Button
+        android:id="@+id/vBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态注册1" />
+
+    <Button
+        android:id="@+id/vBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="动态注册2" />
+
+    <Button
+        android:id="@+id/vBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="基本类型的调用" />
+
+    <Button
+        android:id="@+id/vBtn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：String数组" />
+
+    <Button
+        android:id="@+id/vBtn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：间接调用Java对象的普通和静态变量" />
+
+    <Button
+        android:id="@+id/vBtn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：直接调用Java对象的静态变量/方法" />
+
+    <Button
+        android:id="@+id/vBtn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：间接调用Java对象的实例方法" />
+
+    <Button
+        android:id="@+id/vBtn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：间接调用Java对象的静态方法" />
+
+    <Button
+        android:id="@+id/vBtn10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：接口作为参数-本线程" />
+
+    <Button
+        android:id="@+id/vBtn11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="引用类型：接口作为参数-切线程" />
+</androidx.appcompat.widget.LinearLayoutCompat>
