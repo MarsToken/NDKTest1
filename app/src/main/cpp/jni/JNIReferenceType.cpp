@@ -96,16 +96,44 @@ callback(JNIEnv *env, jobject obj, jobject callback) {
     env->CallVoidMethod(callback, jmethodID);
 }
 
+/**
+ * 创建Java对象1
+ */
+extern "C" JNIEXPORT jobject JNICALL
+animalConstructor(JNIEnv *env, jobject obj) {
+    jclass jcls = env->FindClass("com/example/myapplication/Animal");
+    // 构造函数同一叫：<init>
+    jmethodID jmethodId = env->GetMethodID(jcls, "<init>", "(Ljava/lang/String;)V");
+    jstring name = env->NewStringUTF("Dog");
+    jobject animal = env->NewObject(jcls, jmethodId, name);
+    return animal;
+}
+
+/**
+ * 创建Java对象2
+ */
+extern "C" JNIEXPORT jobject JNICALL
+objectConstructor(JNIEnv *env, jobject obj) {
+    jclass jcls = env->FindClass("com/example/myapplication/Animal");
+    jmethodID jmethodId = env->GetMethodID(jcls, "<init>", "(Ljava/lang/String;)V");
+    jobject animal = env->AllocObject(jcls);
+    jstring name = env->NewStringUTF("Cat");
+    env->CallNonvirtualVoidMethod(animal, jcls, jmethodId, name);
+    return animal;
+}
+
 static JNINativeMethod gMethods[] = {
         // java native method,方法签名，c/c++层方法名
-        {"callNativeStringArray", "([Ljava/lang/String;)Ljava/lang/String;",                   (void *) callStringArray},
-        {"accessInstanceField",   "(Lcom/example/myapplication/Animal;)V",                     (void *) accessInstanceField},
-        {"accessStaticField",     "(Lcom/example/myapplication/Animal;)V",                     (void *) accessStaticField},
+        {"callNativeStringArray",   "([Ljava/lang/String;)Ljava/lang/String;",             (void *) callStringArray},
+        {"accessInstanceField",     "(Lcom/example/myapplication/Animal;)V",               (void *) accessInstanceField},
+        {"accessStaticField",       "(Lcom/example/myapplication/Animal;)V",               (void *) accessStaticField},
         // 静态方法直接修改类属性
-        {"accessStaticField",     "()V",                                                       (void *) accessStaticField2},
-        {"accessInstanceMethod",  "(Lcom/example/myapplication/Animal;)V",                     (void *) accessInstanceMethod},
-        {"accessStaticMethod",    "(Lcom/example/myapplication/Animal;)V",                     (void *) accessStaticMethod},
-        {"nativeCallback",        "(Lcom/example/myapplication/interfaces/ICallback;)V",       (void *) callback},
+        {"accessStaticField",       "()V",                                                 (void *) accessStaticField2},
+        {"accessInstanceMethod",    "(Lcom/example/myapplication/Animal;)V",               (void *) accessInstanceMethod},
+        {"accessStaticMethod",      "(Lcom/example/myapplication/Animal;)V",               (void *) accessStaticMethod},
+        {"nativeCallback",          "(Lcom/example/myapplication/interfaces/ICallback;)V", (void *) callback},
+        {"invokeAnimalConstructor", "()Lcom/example/myapplication/Animal;",                (void *) animalConstructor},
+        {"allocObjectConstructor",  "()Lcom/example/myapplication/Animal;",                (void *) objectConstructor},
 };
 
 /**
