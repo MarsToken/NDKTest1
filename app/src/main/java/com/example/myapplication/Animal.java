@@ -11,6 +11,15 @@ public class Animal {
     protected String protectedName;
     public static int staticNum;
 
+    public Animal() {
+        Log.e(TAG, "Animal()");
+    }
+
+    public Animal(String name) {
+        protectedName = name;
+        Log.e(TAG, "Animal(name):" + name);
+    }
+
     public String getProtectedName() {
         return protectedName;
     }

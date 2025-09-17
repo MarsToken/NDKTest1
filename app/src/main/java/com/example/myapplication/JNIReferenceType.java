@@ -56,4 +56,14 @@ public class JNIReferenceType {
      * @param callback
      */
     public native void nativeCallback(ICallback callback);
+
+    /**
+     * JNI调用java层构造函数1
+     */
+    public native Animal invokeAnimalConstructor();
+
+    /**
+     * JNI调用java层构造函数2
+     */
+    public native Animal allocObjectConstructor();
 }

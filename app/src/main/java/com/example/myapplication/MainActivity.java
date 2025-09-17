@@ -99,6 +99,14 @@ public class MainActivity extends AppCompatActivity {
         binding.vBtn11.setOnClickListener(v -> {
             jniThreadCallback.nativeThreadCallback(() -> Log.e(TAG, Thread.currentThread().getName() + ":thread callback is called."));
         });
+        binding.vBtn12.setOnClickListener(v -> {
+            Animal animal = jniReferenceType.invokeAnimalConstructor();
+            Log.e(TAG, "1:animal name is " + animal.getProtectedName());
+        });
+        binding.vBtn13.setOnClickListener(v -> {
+            Animal animal = jniReferenceType.allocObjectConstructor();
+            Log.e(TAG, "2-:animal name is " + animal.getProtectedName());
+        });
 
     }
 
