@@ -120,6 +120,17 @@ public class MainActivity extends AppCompatActivity {
             jniReference.useWeakGlobalReference();
             System.gc();
         });
+        JNIException jniException = new JNIException();
+        binding.vBtn17.setOnClickListener(v -> {
+            jniException.nativeInvokeJavaException();
+        });
+        binding.vBtn18.setOnClickListener(v -> {
+            try {
+                jniException.nativeThrowException();
+            } catch (IllegalArgumentException e) {
+                e.printStackTrace();
+            }
+        });
 
     }
 
