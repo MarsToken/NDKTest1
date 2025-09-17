@@ -90,5 +90,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="引用类型：调用java构造函数2" />
+
+        <Button
+            android:id="@+id/vBtn14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="引用方式：局部引用" />
+
+        <Button
+            android:id="@+id/vBtn15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="引用方式：全局引用" />
+
+        <Button
+            android:id="@+id/vBtn16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="引用方式：弱引用" />
     </LinearLayout>
 </ScrollView>

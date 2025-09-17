@@ -107,6 +107,19 @@ public class MainActivity extends AppCompatActivity {
             Animal animal = jniReferenceType.allocObjectConstructor();
             Log.e(TAG, "2-:animal name is " + animal.getProtectedName());
         });
+        JNIReference jniReference = new JNIReference();
+        binding.vBtn14.setOnClickListener(v -> {
+            String result = jniReference.errorCacheLocalReference();
+            Log.e(TAG, "local reference value is " + result);
+        });
+        binding.vBtn15.setOnClickListener(v -> {
+            String result = jniReference.cacheWithGlobalReference();
+            Log.e(TAG, "global reference value is " + result);
+        });
+        binding.vBtn16.setOnClickListener(v -> {
+            jniReference.useWeakGlobalReference();
+            System.gc();
+        });
 
     }
 

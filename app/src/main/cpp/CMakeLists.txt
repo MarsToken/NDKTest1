@@ -45,6 +45,12 @@ add_library(
         jni/jni_thread_callback.cpp
 )
 
+add_library(
+        reference-lib
+        SHARED
+        jni/jni_reference.cpp
+)
+
 # 将people文件夹引入到项目中，native-lib.cpp可通过#include<> 直接查找 people目录下所有源码文件
 include_directories(people/)
 # 调用时 #include<base.h>即可
@@ -94,6 +100,11 @@ target_link_libraries(
         ${log-lib}
         # 用到了JavaVM相关的类！jvm.cpp及动态链接库dynamic-lib的入口初始化
         dynamic-lib)
+target_link_libraries(
+        # Specifies the target library.
+        reference-lib
+        # find_library中的log-lib变量
+        ${log-lib})
 # 指定生成的库文件输出路径
 set_target_properties(myapplication-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
 set_target_properties(people-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
@@ -101,6 +112,7 @@ set_target_properties(dynamic-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_
 set_target_properties(baseType-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
 set_target_properties(referenceType-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
 set_target_properties(threadCallback-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
+set_target_properties(reference-lib PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/libs/${ANDROID_ABI})
 set(CMAKE_CXX_STANDARD 14)
 # 打印日志 内置变量
 message("1:" +${PROJECT_SOURCE_DIR})
