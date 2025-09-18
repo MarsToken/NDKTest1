@@ -17,6 +17,7 @@ import com.example.myapplication.interfaces.IThreadCallback;
  * 1.char *modified_str = new char[len + 1]; 为什么要+1
  * 2.函数 void*
  * 3.static作用:被其修饰的成员无法被其他文件引用及访问
+ * 4.reinterpret_cast<void *>和static_cast<jstring>区别？
  */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -130,6 +131,16 @@ public class MainActivity extends AppCompatActivity {
             } catch (IllegalArgumentException e) {
                 e.printStackTrace();
             }
+        });
+        JNIThread jniThread = new JNIThread();
+        binding.vBtn19.setOnClickListener(v -> {
+            jniThread.createNativeThread();
+        });
+        binding.vBtn20.setOnClickListener(v -> {
+            jniThread.createNativeThreadWithArgs();
+        });
+        binding.vBtn21.setOnClickListener(v -> {
+            jniThread.joinNativeThread();
         });
 
     }

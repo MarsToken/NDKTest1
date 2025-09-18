@@ -113,12 +113,30 @@
             android:id="@+id/vBtn17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="native调用java的异常" />
+            android:text="native间接抛java的异常，native层捕获" />
 
         <Button
             android:id="@+id/vBtn18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="native抛异常" />
+            android:text="native直接抛java异常，java层捕获" />
+
+        <Button
+            android:id="@+id/vBtn19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建native层线程" />
+
+        <Button
+            android:id="@+id/vBtn20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="创建native层线程并携带参数" />
+
+        <Button
+            android:id="@+id/vBtn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="join native层线程" />
     </LinearLayout>
 </ScrollView>
