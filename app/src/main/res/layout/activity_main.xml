@@ -11,7 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
 
         <Button
             android:id="@+id/vBtn1"
@@ -138,5 +139,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="join native层线程" />
+
+        <Button
+            android:id="@+id/vBtn22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="native线程等待" />
+
+        <Button
+            android:id="@+id/vBtn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="native线程唤起" />
     </LinearLayout>
 </ScrollView>

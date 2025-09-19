@@ -142,6 +142,13 @@ public class MainActivity extends AppCompatActivity {
         binding.vBtn21.setOnClickListener(v -> {
             jniThread.joinNativeThread();
         });
+        JNIThreadLock jniThreadLock = new JNIThreadLock();
+        binding.vBtn22.setOnClickListener(v -> {
+            jniThreadLock.waitNativeThread();
+        });
+        binding.vBtn23.setOnClickListener(v -> {
+            jniThreadLock.notifyNativeThread();
+        });
 
     }
 
