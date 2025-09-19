@@ -149,7 +149,9 @@ public class MainActivity extends AppCompatActivity {
         binding.vBtn23.setOnClickListener(v -> {
             jniThreadLock.notifyNativeThread();
         });
-
+        binding.vBtn24.setOnClickListener(v -> {
+            jniThreadLock.productAndConsume();
+        });
     }
 
     /**

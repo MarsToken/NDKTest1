@@ -67,6 +67,7 @@ add_library(
         thread-lock-lib
         SHARED
         jni/jni_thread_lock.cpp
+        jni/jni_product_and_consume.cpp
 )
 
 # 将people文件夹引入到项目中，native-lib.cpp可通过#include<> 直接查找 people目录下所有源码文件

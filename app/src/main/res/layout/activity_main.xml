@@ -144,12 +144,18 @@
             android:id="@+id/vBtn22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="native线程等待" />
+            android:text="native线程等待[1]" />
 
         <Button
             android:id="@+id/vBtn23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="native线程唤起" />
+            android:text="native线程唤起[2]" />
+
+        <Button
+            android:id="@+id/vBtn24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="native生产者消费者模型" />
     </LinearLayout>
 </ScrollView>

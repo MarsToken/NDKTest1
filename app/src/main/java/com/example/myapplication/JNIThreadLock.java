@@ -20,4 +20,9 @@ public class JNIThreadLock {
      * 创建一个线程，动态设置标记，充当生产者
      */
     public native void notifyNativeThread();
+
+    /**
+     * 创建一个线程，生产者，消费者
+     */
+    public native void productAndConsume();
 }
